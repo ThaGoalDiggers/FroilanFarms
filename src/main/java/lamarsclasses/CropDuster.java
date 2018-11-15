@@ -2,43 +2,33 @@ package lamarsclasses;
 
 import Interfaces.FarmVehicle;
 import lamarsabstract.AirCraft;
+import pojoclasses.Farm;
 
 public class CropDuster extends AirCraft implements FarmVehicle {
 
-    public String fertlilize;
 
 
-
-
-    public CropDuster(String fly, String fertlilize) {
-        super(fly);
-        this.fertlilize=fertlilize;
+    public String fly() {
+        return "flys around crops ";
     }
 
-
-    public String getFertlilize() {
-        return fertlilize;
+    public String makeNoise() {
+        return "Plane noises";
     }
 
-    public void setFertlilize(String fertlilize) {
-        this.fertlilize = fertlilize;
+    public boolean ismounted() {
+        return true;
+    }
+
+    public boolean isNotMounted() {
+        return false ;
     }
 
     public void operate(Farm farm) {
 
-        return farm;
-
     }
 
     public void operate() {
-
-    }
-
-    public String makeNoise() {
-        return null;
-    }
-
-    public boolean ismounted() {
-        return false;
+        System.out.println("operating");
     }
 }
