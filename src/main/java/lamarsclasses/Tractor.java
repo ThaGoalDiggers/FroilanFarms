@@ -4,40 +4,31 @@ import Interfaces.FarmVehicle;
 import lamarsabstract.Vehicle;
 import pojoclasses.Farm;
 
-public class Tractor extends Vehicle implements FarmVehicle  {
+public class Tractor extends Vehicle implements FarmVehicle {
 
-
-    private String harvest;
-
-    public Tractor (String harvest){
-
-        this.harvest=harvest;
-
-    }
-
-    public String getHarvest() {
-        return harvest;
-    }
-
-    public void setHarvest(String harvest) {
-        this.harvest = harvest;
-    }
+    private boolean ismounted = false;
 
     public void operate(Farm farm) {
-
-        return farm;
-
-    }
-
-    public void operate() {
 
     }
 
     public String makeNoise() {
-        return null;
+        return "Tractor noises";
     }
 
     public boolean ismounted() {
-        return false;
+        return ismounted = true;
+    }
+
+    public boolean isNotMounted() {
+        return ismounted = true;
+    }
+
+    public boolean isnotmounted() {
+        return ismounted = false;
+    }
+
+    public void operate() {
+
     }
 }
