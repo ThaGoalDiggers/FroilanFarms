@@ -1,6 +1,7 @@
 package plants;
 
 import Interfaces.Edible;
+import edibles.EarCorn;
 
 public class CornStalk extends Crop {
     public Edible yields() {
