@@ -1,3 +1,3 @@
 public interface Eater {
-    void eat(Edible food);
+    Edible eat(Edible food);
 }
