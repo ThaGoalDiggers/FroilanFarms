@@ -7,12 +7,12 @@ import java.util.ArrayList;
 //public class StablesTest {
 //
 //    @Test
-//    public ArrayList<Horse> getHorseTest(){
+//    public ArrayList<animals.Horse> getHorseTest(){
 //
 //    }
 //
 //    @Test
-//    public void setHorseTest(ArrayList<Horse> horses){
+//    public void setHorseTest(ArrayList<animals.Horse> horses){
 //
 //    }
 //}

@@ -6,12 +6,12 @@ import java.util.ArrayList;
 
 //public class ChickenCoopTest {
 //    @Test
-//    public ArrayList<Chicken> getChickenTest(){
+//    public ArrayList<animals.Chicken> getChickenTest(){
 //
 //    }
 //
 //    @Test
-//    public void setChickenTest(ArrayList<Chicken> chickens){
+//    public void setChickenTest(ArrayList<animals.Chicken> chickens){
 //    }
 //
 //}
