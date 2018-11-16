@@ -6,14 +6,17 @@ import Interfaces.Botanist;
 import Interfaces.Edible;
 import Interfaces.Rideable;
 import Interfaces.Rider;
+import edibles.Tomato;
 import plants.Crop;
+import pojoclasses.CropRow;
+
+import java.util.ArrayList;
 
 public class Farmer extends Person implements Botanist, Rider {
     public Farmer() {
     }
 
     public void eat(Edible food){
-        System.out.println("The Farmer ate " + food + " and it was yummy.");
         food = null;
     }
 
@@ -22,7 +25,8 @@ public class Farmer extends Person implements Botanist, Rider {
     }
 
     public void plant(CropRow cropRow, Crop crop){
-        System.out.println("The Farmer planted " + crop + " in the " + cropRow + ".");
+        ArrayList<Crop> row = new ArrayList<Crop>();
+        cropRow.setPlantedCrops(row);
     }
 
     public void mount(Rideable rideable){

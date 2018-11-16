@@ -1,5 +1,7 @@
 package pojoclasses;
 
+import plants.Crop;
+
 import java.util.ArrayList;
 
 public class CropRow {
