@@ -1,0 +1,7 @@
+# Git Ignore
+
+# IDE stuff
+
+.idea
+
+.idea/*
