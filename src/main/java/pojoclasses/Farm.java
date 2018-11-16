@@ -6,25 +6,25 @@ public class Farm {
 
 
 
-    private ArrayList<Stable> stable = new ArrayList<Stable>();
+    private ArrayList<Stables> stable = new ArrayList<Stables>();
 
-    private ArrayList<ChickenCoops> chickenCoops = new ArrayList<ChickenCoops>();
+    private ArrayList<ChickenCoop> chickenCoops = new ArrayList<ChickenCoop>();
 
     private FarmHouse farmHouse;
 
-    public ArrayList<Stable> getStable() {
+    public ArrayList<Stables> getStable() {
         return stable;
     }
 
-    public void setStable(ArrayList<Stable> stable) {
+    public void setStable(ArrayList<Stables> stable) {
         this.stable = stable;
     }
 
-    public ArrayList<ChickenCoops> getChickenCoops() {
+    public ArrayList<ChickenCoop> getChickenCoops() {
         return chickenCoops;
     }
 
-    public void setChickenCoops(ArrayList<ChickenCoops> chickenCoops) {
+    public void setChickenCoops(ArrayList<ChickenCoop> chickenCoops) {
         this.chickenCoops = chickenCoops;
     }
 

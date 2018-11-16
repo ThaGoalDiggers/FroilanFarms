@@ -1,6 +1,7 @@
 package plants;
 
 import Interfaces.Edible;
+import edibles.Carrot;
 
 public class CarrotPlant extends Crop {
 

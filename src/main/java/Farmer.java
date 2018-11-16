@@ -7,6 +7,7 @@ import Interfaces.Edible;
 import Interfaces.Rideable;
 import Interfaces.Rider;
 import plants.Crop;
+import pojoclasses.CropRow;
 
 public class Farmer extends Person implements Botanist, Rider {
     public Farmer() {
