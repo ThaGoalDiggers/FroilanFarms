@@ -1,21 +1,20 @@
+
+
 /*
 This class was made by Bobby
  */
-
-import Interfaces.Botanist;
-import Interfaces.Edible;
-import Interfaces.Rideable;
-import Interfaces.Rider;
-import plants.Crop;
-import pojoclasses.CropRow;
 
 public class Farmer extends Person implements Botanist, Rider {
     public Farmer() {
     }
 
-    public void eat(Edible food){
+    public Edible eat(Edible food){
+
         System.out.println("The Farmer ate " + food + " and it was yummy.");
         food = null;
+        return food;
+
+
     }
 
     public String makeNoise(){
@@ -33,4 +32,6 @@ public class Farmer extends Person implements Botanist, Rider {
     public void dismount(Rideable rideable){
         System.out.println("The farmer dismounted the " + rideable + ".");
     }
+
+
 }

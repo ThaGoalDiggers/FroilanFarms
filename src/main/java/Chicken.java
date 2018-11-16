@@ -3,16 +3,10 @@ This class was made by Curly Fry
  */
 
 
-
-import Interfaces.Edible;
-import Interfaces.Produce;
-import edibles.EdibleEgg;
-
-
 public class Chicken extends Animal implements Produce
 {
 
-
+public boolean hasBeenFertilized;
 
     public Chicken(){}
 
@@ -30,7 +24,7 @@ public class Chicken extends Animal implements Produce
 
 
 
-    public Edible yields(boolean hasBeenFertilized)
+    public Edible yields()
     {
         if (!hasBeenFertilized) { return (Edible) new EdibleEgg(); }
 

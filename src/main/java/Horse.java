@@ -3,18 +3,14 @@ This class was made by Scratch Gobo
  */
 
 
-
-import Interfaces.Edible;
-import Interfaces.Rideable;
-
-
-
 public class Horse extends Animal implements Rideable
 {
 
+    public boolean isMounted = false;
 
 
     public Horse(){}
+
 
 
 
@@ -28,6 +24,11 @@ public class Horse extends Animal implements Rideable
 
     public String makeNoise() { return "neeeIIIIGHHHH"; }
 
+    public boolean isMounted() {
+        return isMounted;
+    }
 
-
+    public void setMounted(boolean mounted) {
+        isMounted = mounted;
+    }
 }
