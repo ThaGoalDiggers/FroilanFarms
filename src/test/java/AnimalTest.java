@@ -1,2 +1,10 @@
-public class AnimalTest {
+public class AnimalTest
+{
+
+
+
+
+
+
+
 }
