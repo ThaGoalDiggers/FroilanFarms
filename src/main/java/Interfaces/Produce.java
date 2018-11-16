@@ -1,5 +1,5 @@
 package Interfaces;
 
 public interface Produce {
-    Edible yields();
+    Edible yields(boolean hasBeenFertilized);
 }
