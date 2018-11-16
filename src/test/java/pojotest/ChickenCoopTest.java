@@ -4,14 +4,14 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
-//public class ChickenCoopTest {
-//    @Test
-//    public ArrayList<animals.Chicken> getChickenTest(){
-//
-//    }
-//
-//    @Test
-//    public void setChickenTest(ArrayList<animals.Chicken> chickens){
-//    }
-//
-//}
+public class ChickenCoopTest {
+    @Test
+    public void getChickenTest(){
+
+    }
+
+    @Test
+    public void setChickenTest(ArrayList<animals.Chicken> chickens){
+    }
+
+}
