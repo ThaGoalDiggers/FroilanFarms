@@ -1,33 +1,31 @@
-package pojotest;
 
 import org.junit.Test;
-import FarmHouse;
 
 import java.util.ArrayList;
 
 public class FarmTest {
     @Test
-    public ArrayList<Stable> getStableTest(){
+    public void getStableTest(){
 
     }
 
     @Test
-    public void setStableTest(ArrayList<Stable> stables){
+    public void setStableTest(){
 
     }
 
     @Test
-    public ArrayList<ChickenCoops> getChickenCoops(){
+    public void getChickenCoops(){
 
     }
 
     @Test
-    public void setChickenCoops(ArrayList<ChickenCoops> chickenCoops){
+    public void setChickenCoops(){
 
     }
 
     @Test
-    public FarmHouse getFarmHouseTest(){
+    public void getFarmHouseTest(){
 
     }
 

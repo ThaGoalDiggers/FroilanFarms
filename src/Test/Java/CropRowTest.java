@@ -1,5 +1,3 @@
-package pojotest;
-
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -7,7 +5,7 @@ import java.util.ArrayList;
 public class CropRowTest {
 
     @Test
-    public ArrayList<Crop> getPlantedCrops(){
+    public void getPlantedCrops(){
 //lolololololol
     }
 

@@ -2,8 +2,7 @@
 This test class was made by Bobby
  */
 
-import Interfaces.Edible;
-import Interfaces.Rideable;
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -34,17 +33,17 @@ public class FarmerTest {
 
     }
 
-    @Test
-    public void mountTest(){
-        Rideable rideable;
-        String expected = "The Farmer mounted the " + rideable + ".";
-        String actual = farmer.mount(rideable);
-    }
+//    @Test
+//    public void mountTest(){
+//        Rideable rideable;
+//        String expected = "The Farmer mounted the " + rideable + ".";
+//        String actual = farmer.mount(rideable);
+//    }
 
-    @Test
-    public void dismountTest(){
-        Rideable rideable;
-        String expected = "The farmer dismounted the " + rideable + ".";
-        String actual = farmer.dismount(rideable);
-    }
+//    @Test
+//    public void dismountTest(){
+//        Rideable rideable;
+//        String expected = "The farmer dismounted the " + rideable + ".";
+//        String actual = farmer.dismount(rideable);
+//    }
 }

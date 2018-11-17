@@ -1,4 +1,3 @@
-package plantsAndEdiblesTest;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -20,5 +19,3 @@ public class CornStalksTest {
 //        Assert.assertEquals(expected,actual);
 
     }
-
-}
