@@ -1,6 +1,6 @@
 public class Potatoplant extends Crop {
     public Edible yields() {
-        if (this.getHasBeenFertilized() && this.getHasBeenHarvested() ==false)
+        if (!this.getHasBeenFertilized() && !this.getHasBeenHarvested())
         {
             return new Potato();
         }

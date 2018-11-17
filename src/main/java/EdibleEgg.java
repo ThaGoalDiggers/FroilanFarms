@@ -1,1 +1,2 @@
-public class EdibleEgg implements Edible {}
+public class EdibleEgg implements Edible {
+}
